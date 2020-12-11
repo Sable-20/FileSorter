@@ -1,0 +1,12 @@
+{
+    "folder_to_track": "path/to/folder/to/scan",
+    
+    "image_folder": "path/to/where/you/want.images",
+    "video_folder": "path/to/where/you/want/videos",
+    "text_doc": "path/to/all/txt/style/docs",
+    "js_folder": "path/to/js/folder",
+    "py_folder": "path/to/py/folder",
+    "c_family": "path/to/c/family/folder",
+    "go_doc": "path/to/where/you/want/go/files",
+    "misc": "path/to/misc/shit"
+}
