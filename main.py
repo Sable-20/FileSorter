@@ -16,7 +16,7 @@ class fileHandler(FileSystemEventHandler):
             src = folder_to_track + "/" + filename
             if filename.endswith(".png" or ".jpg" or ".jpeg" or ".webm"):
                 folder_destination = data["image_folder"]
-            elif filename.endswith(".mp4" or ".flv" or ".mov"):
+            elif filename.endswith(".mp4" or ".flv" or ".mov" or ".mkv"):
                 folder_destination = data["video_folder"]
             elif filename.endswith(".txt" or ".pdf"):
                 folder_destination = data["text_doc"]
